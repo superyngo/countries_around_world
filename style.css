@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherited;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100svh;
+}
+
+#map {
+  height: 100svh;
+}
+
+.flag {
+  max-width: 10rem;
+  border: 1px solid black; /* max-height: 2rem; */
+}
